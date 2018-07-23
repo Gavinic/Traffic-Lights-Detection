@@ -1,6 +1,6 @@
 # Traffic-Lights-Detection <br>
 -----------
-This project is aimed to realize the relative algorithms about traffic lights. I will complete it by two methods ,the  traditional computer vision algorithms and deep learning method based on tensorflow objection API.I am a graduate student  in UESTC which is located at  ChenDu In China.
+This project is aimed to realize the relative algorithms about traffic lights. I will complete it by two methods ,the  traditional computer vision algorithms and deep learning method based on tensorflow objection API.I am a graduate student from UESTC, Chengdu, China.
 
 ## 项目简介：<br>
   正如题目所说的，这个项目的主要工作实际上就是实现交通灯的检测。在智能交通领域关于交通标志，车道线，车辆前向碰撞预警，后向碰撞预警，车距检测等已经有比较广泛的研究。这些交通相关的计算机视觉方向也是目前自动驾驶汽车正在解决或者已经解决的经典问题。相比于这几个方向，对于交通灯的检测的研究相对较少。交通灯的检测在自动驾驶汽车的安全行驶中至关重要。传统CV的研究中，更多的是针对比较简单的高空架空的交通灯的识别。在复杂的城市环境中，交通灯的检测和识别仍然是一个比较困难的问题。虽然目前借助于Deep Learning 的技术，交通灯的识别效果有了很大的进步。但是复杂城市环境道路中的交通灯检测仍然达不到很高的精度。开设这个项目的目的在于梳理自己的知识，同时提升自己的C++的能力以及基于tensorflow框架的编程和项目搭建能力。这个项目将在github开源。欢迎大家共同进行项目维护。提出宝贵意见。<br>
