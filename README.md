@@ -49,7 +49,7 @@ Bosch Small Traffic Lights Dataset<br>
  <br>
 ## (7)tensorflow objection API
    https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md<br>
-   基于tensorflow的object detection API的代码也已经开源。代码运行需要按照上述网址进行环境配置。由于笔者非object detection方向。所以这部分的网络直接调用的Google Tensorflow API后续会有项目组成员进行这部分的代码改写。欢迎实时关注。目前修改并实现了基于DL的交通灯检测算法，1024*720 图片耗时150ms左右，在测试数据集上准确度达到98%.<br>
+   基于tensorflow的object detection API的代码也已经开源。代码运行需要按照上述网址进行环境配置。由于笔者非object detection方向。所以这部分的网络直接调用的Google Tensorflow API后续会有项目组成员进行这部分的代码改写。欢迎实时关注。目前修改并实现了基于DL的交通灯检测算法，1024*720 图片耗时150ms左右，在测试数据集上准确度达到98%. 算法所使用的是tensorflow深度学习框架，由于直接使用API的效果差强人意，因此团队设计了新的检测算法，且已申请专利，同时有一篇paper在投,之后会给出相关papaer链接.<br>
    
    这是一个持久的project，后续会逐部分分析和讲解相关的代码和算法原理。整个项目的代码除了少部分引用外，其他的全部来源于笔者原创。由于本人比能力有限，代码结构和质量可能存在一些瑕疵，希望各位可以提出宝贵意见，以及在github上contribute，共同完善这个工程。目前实现了算法部分，后续计划加上软件界面。最终形成一个完整的产品。<br>
    笔者目前就读于电子科技大学，对project有任何疑问请发送邮件至：Gavinzmail@163.com，同时我也会在国内的CSDN博客平台 https://blog.csdn.net/gavinv/article/details/81016064 进行整个项目的介绍。不过目前科研任务繁重，我会尽力把这个工程做好。希望大家多多支持！
