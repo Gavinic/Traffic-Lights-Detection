@@ -9,13 +9,12 @@ Here is the github link:<br>
    https://github.com/Gavinic/Traffic-Lights-Detection   <br>
 
 ## (1)Overall design of the project：<br>
-   The whole project is mainly divided into three parts:<br>
-Traffic lights locate; Traffic lights detect; Traffic lights recognize;<br>
-   Traffic lights locate: <br>
+   The whole project is mainly divided into three parts:Traffic lights locate; Traffic lights detect; Traffic lights recognize;<br>
+1,Traffic lights locate: <br>
    The traffic light positioning part mainly performs pre-processing operations on the pictures used by the project to accurately find the traffic light area.<br>
-   Traffic lights detection: <br>
+2,Traffic lights detection: <br>
    The traffic light detection part mainly focuses on the precise screening of the traffic light    area obtained by the positioning part.<br>
-   Traffic lights recognize: <br>
+3,Traffic lights recognize: <br>
    The traffic light recognition part mainly distinguishes the detected traffic lights by red,  yellow and green colors. <br>
  
 ## (2)DataSet：<br>
