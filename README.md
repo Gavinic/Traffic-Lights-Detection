@@ -3,25 +3,26 @@
 This project is aimed to realize the relative algorithms about traffic lights. I will complete it by two methods ,the classical computer vision algorithms and deep learning method based on tensorflow objection API.I am a graduate student from UESTC, Chengdu, China.
 
 ## 项目简介：<br>
-  正如题目所说的，这个项目的主要工作实际上就是实现交通灯的检测。在智能交通领域关于交通标志，车道线，车辆前向碰撞预警，后向碰撞预警，车距检测等已经有比较广泛的研究。这些交通相关的计算机视觉方向也是目前自动驾驶汽车正在解决或者已经解决的经典问题。相比于这几个方向，对于交通灯的检测的研究相对较少。交通灯的检测在自动驾驶汽车的安全行驶中至关重要。传统CV的研究中，更多的是针对比较简单的高空架空的交通灯的识别。在复杂的城市环境中，交通灯的检测和识别仍然是一个比较困难的问题。虽然目前借助于Deep Learning 的技术，交通灯的识别效果有了很大的进步。但是复杂城市环境道路中的交通灯检测仍然达不到很高的精度。开设这个项目的目的在于梳理自己的知识，同时提升自己的C++的能力以及基于tensorflow框架的编程和项目搭建能力。这个项目将在github开源。欢迎大家共同进行项目维护。提出宝贵意见。<br>
+  As the title says, the main job of this project is to achieve the detection of traffic lights. In the field of intelligent transportation, there have been extensive researches on traffic signs, lane lines, vehicle forward collision warning, backward collision warning, and distance detection. These traffic-related computer vision directions are also classic issues that autopilot cars are currently addressing or have solved. Compared to these directions, there are relatively few studies on the detection of traffic lights. The detection of traffic lights is crucial in the safe driving of autonomous vehicles. In the study of traditional CV, more is the identification of relatively simple overhead light traffic lights. In complex urban environments, the detection and identification of traffic lights is still a difficult problem. Although the technology of Deep Learning is currently used, the recognition effect of traffic lights has been greatly improved. However, traffic light detection in complex urban environmental roads still does not achieve high accuracy. The purpose of this project is to sort out the relevant knowledge of the object detection while improving its C++ coding ability and programming and project building capabilities based on the tensorflow framework.I hope that interested friends can maintain this project together.<br>
     
-以下是github地址:<br>
+Here is the github link:<br>
    https://github.com/Gavinic/Traffic-Lights-Detection   <br>
 
-## (1)项目整体设计：<br>
-     整个项目主要分为三大部分:Traffic lights locate; Traffic lights detect; Traffic lights recognize;
-     Traffic lights locate: 交通灯定位部分主要是对项目所使用的图片进行预处理等操作，准确找到交通灯区域；
-     Traffic lights detect: 交通灯检测部分主要是对定位部分得到的交通灯区域进行精确筛选；
-     Traffic lights recognize: 交通灯识别部分主要是对检测到的交通灯进行红，黄，绿的颜色区分。 
+## (1)Overall design of the project：<br>
+     The whole project is mainly divided into three parts:
+     Traffic lights locate; Traffic lights detect; Traffic lights recognize;
+     Traffic lights locate: The traffic light positioning part mainly performs pre-processing operations on the pictures used      by the project to accurately find the traffic light area.
+     Traffic lights detect: The traffic light detection part mainly focuses on the precise screening of the traffic light          area obtained by the positioning part.
+     Traffic lights recognize: The traffic light recognition part mainly distinguishes the detected traffic lights by red,        yellow and green colors. 
  
-## (2)项目相关数据集：<br>
+## (2)DataSet：<br>
 Bosch Small Traffic Lights Dataset<br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/b1.png)  <br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/b2.png) <br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/b3.png) <br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/b4.png)  <br> 
 
-## (3)传统CV检测效果：<br>
+## (3)The results of conventional cv algorithm：<br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/1.png)  
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/2.png) <br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/3.png) <br>
@@ -29,28 +30,28 @@ Bosch Small Traffic Lights Dataset<br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/5.png) <br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/e1.png) <br>
 
-## (4)基于Tensorflow深度学习框架的交通灯识别效果：<br>
+## (4)The results of faster r-cnn based on Tensorflow：<br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/image_0424.png) <br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/image_0577.png) <br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/image_1949.png) <br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/image_8314.png) <br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/image_8321.png) <br>
  
-## (5)参考资料：<br>
+## (5)Reference：<br>
   1，Traffic Light Mapping and Detection <br>
   2，Traffic Light Detection: A Learning Algorithm and Evaluations on Challenging Dataset <br>
   3，A Tlreshold Selection Method from Gray-Level Histograms  <br>
-  4，城市环境中交通对象检测与识别研究  <br>
-  5，复杂场景下交通灯的检测与识别方法研究  <br>
-  以上只列出了主要的参考文献，整体算法主要是借助各个文章的部分思想，进行整体算法方案的设计和实现。   <br>
+  4，Research on Traffic Object Detection and Recognition in Urban Environment  <br>
+  5，Research on Detection and Recognition Method of Traffic Lights in Complex Scenes  <br>
+  The above only lists the main references. The overall algorithm mainly uses the ideas of each article to design and        implement the overall algorithm.   <br>
 
 ## (6)Code overview:<br>
 ![image](https://github.com/Gavinic/Traffic-Lights-Detection/blob/master/image/7.png)  <br>
  <br>
 ## (7)tensorflow objection API
    https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md<br>
-   基于tensorflow的object detection API的代码也已经开源。代码运行需要按照上述网址进行环境配置。由于笔者非object detection方向。所以这部分的网络直接调用的Google Tensorflow API后续会有项目组成员进行这部分的代码改写。欢迎实时关注。目前修改并实现了基于DL的交通灯检测算法，1024*720 图片耗时150ms左右，在测试数据集上准确度达到98%. 算法所使用的是tensorflow深度学习框架，由于直接使用API的效果差强人意，因此团队设计了新的检测算法，且已申请专利，同时有一篇paper在投,之后会给出相关papaer链接.<br>
+   The code based on object detection API  of tensorflow is also open source. Code running needs to be configured according to the above URL. Because the author is not major in the object detection direction. So this part of the network directly calls the Google Tensorflow API. Subsequent project team members will perform this part of the code rewriting. Welcome to pay attention in real time. At present, the DL-based traffic light detection algorithm is modified and implemented. The 1024*720 picture takes about 150ms, and the accuracy on the test data set reaches 98%. Since the effect of directly using the API is not satisfactory, the team designed a new detection algorithm. And has applied for a patent, and there is a paper in the investment, after which will give the relevant paper link.<br>
    
-   这是一个持久的project，后续会逐部分分析和讲解相关的代码和算法原理。整个项目的代码除了少部分引用外，其他的全部来源于笔者原创。由于本人比能力有限，代码结构和质量可能存在一些瑕疵，希望各位可以提出宝贵意见，以及在github上contribute，共同完善这个工程。目前实现了算法部分，后续计划加上软件界面。最终形成一个完整的产品。<br>
-   笔者目前就读于电子科技大学，对project有任何疑问请发送邮件至：Gavinzmail@163.com，同时我也会在国内的CSDN博客平台 https://blog.csdn.net/gavinv/article/details/81016064 进行整个项目的介绍。不过目前科研任务繁重，我会尽力把这个工程做好。希望大家多多支持！
+   This is a persistent project and the subsequent analysis and explanation of the relevant code and algorithm principles. The code of the whole project is all from the author's original, except for a small number of references. Due to my limited ability, there may be some flaws in the structure and quality of the code. I hope that you can make valuable comments and contribute on Github to improve the project. The algorithm part is currently implemented, and the subsequent plan plus the software interface. The result is a complete product.<br>
+   I am currently studying at the University of Electronic Science and Technology of China. If you have any questions about the project, please send an email to：Gavinzmail@163.com，At the same time, I will also introduce the whole project in the domestic CSDN blog platform. https://blog.csdn.net/gavinv/article/details/81016064.However. However, the current scientific research task is heavy, I will try my best to make this project a good job. I hope everyone can support!
  
