@@ -1,4 +1,4 @@
-# Traffic-Lights-Detection <br>
+# Traffic Lights Detection <br>
 -----------
 This project is aimed to realize the relative algorithms about traffic lights. I will complete it by two methods ,the classical computer vision algorithms and deep learning method based on tensorflow objection API.I am a graduate student from UESTC, Chengdu, China.
 
