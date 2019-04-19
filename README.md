@@ -2,7 +2,7 @@
 -----------
 This project is aimed to realize the relative algorithms about traffic lights. I will complete it by two methods ,the classical computer vision algorithms and deep learning method based on tensorflow objection API.I am a graduate student from UESTC, Chengdu, China.
 
-## 项目简介：<br>
+## Summary：<br>
   As the title says, the main job of this project is to achieve the detection of traffic lights. In the field of intelligent transportation, there have been extensive researches on traffic signs, lane lines, vehicle forward collision warning, backward collision warning, and distance detection. These traffic-related computer vision directions are also classic issues that autopilot cars are currently addressing or have solved. Compared to these directions, there are relatively few studies on the detection of traffic lights. The detection of traffic lights is crucial in the safe driving of autonomous vehicles. In the study of traditional CV, more is the identification of relatively simple overhead light traffic lights. In complex urban environments, the detection and identification of traffic lights is still a difficult problem. Although the technology of Deep Learning is currently used, the recognition effect of traffic lights has been greatly improved. However, traffic light detection in complex urban environmental roads still does not achieve high accuracy. The purpose of this project is to sort out the relevant knowledge of the object detection while improving its C++ coding ability and programming and project building capabilities based on the tensorflow framework.I hope that interested friends can maintain this project together.<br>
     
 Here is the github link:<br>
