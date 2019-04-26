@@ -56,4 +56,6 @@ Bosch Small Traffic Lights Dataset<br>
    
    This is a persistent project and the subsequent analysis and explanation of the relevant code and algorithm principles. The code of the whole project is all from the author's original, except for a small number of references. Due to my limited ability, there may be some flaws in the structure and quality of the code. I hope that you can make valuable comments and contribute on Github to improve the project. The algorithm part is currently implemented, and the subsequent plan plus the software interface. The result is a complete product.<br>
    I am currently studying at the University of Electronic Science and Technology of China. If you have any questions about the project, please send an email to：Gavinzmail@163.com，At the same time, I will also introduce the whole project in the domestic CSDN blog platform. https://blog.csdn.net/gavinv/article/details/81016064.However. However, the current scientific research task is heavy, I will try my best to make this project a good job. I hope everyone can support!
+   
+   <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
  
