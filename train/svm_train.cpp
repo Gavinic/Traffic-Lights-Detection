@@ -8,7 +8,8 @@ namespace traffic{
     {
         assert(signs_folder);
         assert(xml);
-        extractFeature = gethogfeature;
+        extractFeature = getprofeature; // projection features
+        //extractFeature = gethogfeature;  // update later
         //extractFeature = harrlikefeature;
     }
      
