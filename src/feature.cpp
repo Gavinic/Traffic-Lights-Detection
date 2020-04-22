@@ -1,7 +1,11 @@
 #include <feature.hpp>
 
 namespace traffic{
-    void gethogfeature(const Mat& src,Mat& feature)
+    void gethogfeature(const Mat& src, Mat& feature)
+    {
+        // we will update this part later.
+    }
+    void getprofeature(const Mat& src,Mat& feature)
     {   
         Mat image;
         resize(src,image,Size(32,32),0,0,INTER_LINEAR);
@@ -22,7 +26,8 @@ namespace traffic{
         
         cv::threshold(gray_mat,thresh_mat,0,255,CV_THRESH_OTSU + CV_THRESH_BINARY);
 
-        Mat featuretemp = Mat::zeros(image.rows,image.cols,CV_8UC1);
+        //Mat featuretemp = Mat::zeros(image.rows,image.cols,CV_8UC1);
+        Mat featuretemp = Mat::zeros(image.rows,1,CV_8UC1);
         
         for (i = 0; i < image.rows; i+=step)
         {
